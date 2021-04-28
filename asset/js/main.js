@@ -9,12 +9,9 @@ var fuori = lista.includes(cognome);
 if (fuori != lista){
     lista.push(cognome);
     lista.sort();
-    console.log('iterazione' + (i + 1));
     console.log(lista.indexOf(cognome));
- }
- 
- console.log (lista) ; 
- 
+}
+ console.log (lista);
  
 /*  for (i = 0; 1 < lista.length; i++){
     console.log(lista);
